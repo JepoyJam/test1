@@ -33,6 +33,7 @@ h1 {
   }
   .gender {
   vertical-align: middle;
+  width: 95%;
   }
   fieldset {
     border-bottom: .2em solid #3b3b4f;
@@ -48,6 +49,7 @@ h1 {
     font-family: tahoma;
     font-size: .8em;
     color: #1b1b32;
+    border-radius: 5px;
   }
   .option {
     display: unset;
@@ -61,6 +63,10 @@ h1 {
     margin: 0 .1em 0 1em;
     font-size: 1em;
   }
+  textarea [comment] {
+    display: unset;
+    width: 95%;
+  }
   input[type="submit"] {
     width: 30%;
     margin: 1em auto;
@@ -69,4 +75,5 @@ h1 {
     border-color: black; 
     font-size: 1.1em;
     color: white;
+    border-radius: 20px;
   }
