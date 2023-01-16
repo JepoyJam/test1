@@ -63,13 +63,9 @@ h1 {
     margin: 0 .1em 0 1em;
     font-size: 1em;
   }
-  textarea [comment] {
-    display: unset;
-    width: 95%;
-  }
   input[type="submit"] {
     width: 30%;
-    margin: 1em auto;
+    margin: -1 auto;
     height: 2em;
     background-color: #1b1b32 ;
     border-color: black; 
