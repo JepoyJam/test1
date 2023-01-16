@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First SurCoding Test</title>
+  <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">My First Coding Test</h1>
+    <p id="description"> Thank you for helping us to learn coddings!</p>
+    <form id="survey-form" method="post" action='https://survey-form.myfirsttestcode.yes'>
+      <fieldset>
+        <label id="name-label"
+        <label for="name">Enter Your First Name: <input id="name" name="name" type="text" placeholder="First Name" required /></label>
+        </label>
+        <label for="family-name">Enter Your Family Name: <input id="family-name" name="family-name" type="text" placeholder="Family Name" required /></label>
+        <label id="number-label"
+         <label for="number">Age<label class="option">   (Optional)</label>: <input id="number" name="number" type="number" min="15" max="90" placeholder="Age must be 15 above" /></label></label>
+         <label id="email-label">
+           <label for="email">Email Address: <input id="email" type="email" name="email" placeholder="email@sample.com " required /></label>
+        <!-- <label for="email" id="email" >Email <input id="email" name="email" type="email"  placeholder="email"  value="email" required /> </label>-->
+         </label>
+           <label for="dropdown"> Gender: <select id="dropdown" name="dropdown" class="gender"> <option value= ""> (Select One)</option> 
+           <option value="1"> Male </option> 
+             <option value="2"> Female</option> 
+             <option value="3"> Both</option></select>
+      </fieldset>
+             <fieldset>
+           <label for="friend"> Would you recommend freeCodeCamp to a friend? </label>
+             <label for="very-sure"> <input id="very-sure"  type="radio" name="friend-type" class="gender" value="very-sure" /> very sure
+             </label>
+              <label for="sure"> <input id="sure"  type="radio" name="friend-type" class="gender" value="sure" /> sure
+             </label>
+             <label for="maybe"> <input id="maybe"  type="radio" name="friend-type" class="gender" value="maybe" /> maybe
+             </label>
+              <label for="not"> <input id="not"  type="radio" name="friend-type" class="gender" value="not" /> not
+             </label>
+             <label for="sport"> what sports are you interested? <label class="option"> (Check All That Apply)</label>
+      <label for="fotball"><input id="fotball" type="checkbox" name="fotball" value="fotball" class="gender" /> fotball</label><label for="cricket"><input id="cricket" type="checkbox" name="cricket" value="cricket" class="gender" /> Cricket</label>
+<label for="rugby"><input id="rugby" type="checkbox" name="rugby" value="rugby" class="gender" /> Rugby</label>
+<label for="badminton"><input id="badminton" type="checkbox" name="badminton" value="badminton" class="gender" /> Badminton</label>
+<label for="Tennis"><input id="Tennis" type="checkbox" name="Tennis"  value="Tennis" class="gender" /> Tennis</label>
+<label for="basketball"><input id="basketball" type="checkbox" name="basketball" value="basketball" class="gender" /> Basketball</label>
+<label for="volleyball"><input id="volleyball" type="checkbox" name="volleyball" value="volleyball" class="gender" /> Volleyball</label>
+<label for="others"><input id="others" type="checkbox"
+name="others" value="others"
+class="gender" /> Other Sport <input id="others" name="others" placeholder="Type your other sports..."/>
+             </fieldset>
+<fieldset>
+  </fieldset>
+        <label for="comment">Comment or suggestion?
+          <textarea id="comment" name="comment" rows="5" cols="50" placeholder="Enter your Comment or Suggestion Here..."></textarea>
+        </label>
+      <input id="submit" value="Submit" type="submit" />
+    </form>
+  </body>
+</html>
